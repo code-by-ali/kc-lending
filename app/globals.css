@@ -3,7 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #222222;
+  --primary: #1a202c;
+  --description: #6c727f;
+  --primary-blue: #1751A8;
   --secondary: #ffffff;
 
   /* Fonts */
@@ -15,22 +17,20 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-figtree);   /* ✅ Main font */
+  --font-sans: var(--font-figtree); /* ✅ Main font */
   --font-mono: var(--font-geist-mono);
   --font-sfpro: var(--font-sf-pro);
   --font-dmsans: var(--font-dmsans); /* ✅ Secondary font */
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
+  --color-description: var(--description);
+  --color-primary-blue: var(--primary-blue);
 }
 
 /* 🌟 Custom Utility for Gradient */
 @layer utilities {
   .gradient-bg {
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      #1d65d1 0%,
-      #184fa1 100%
-    );
+    background: radial-gradient(50% 50% at 50% 50%, #1d65d1 0%, #184fa1 100%);
   }
 }
 

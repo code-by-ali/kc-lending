@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { Figtree, DM_Sans } from "next/font/google"; // ✅ Import fonts
 import "./globals.css";
-import Header from "./components/common/Header";
+import Header from "@/components/common/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
