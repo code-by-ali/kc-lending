@@ -29,7 +29,7 @@ const KCLendingSection = () => {
     activeTab === "vision" ? visionContent : missionContent;
 
   return (
-    <section className="py-16 px-6 bh-white">
+    <section className="py-16 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - House Image with Cards */}

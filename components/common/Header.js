@@ -23,7 +23,7 @@ const Header = () => {
         </div>
 
         {/* Desktop Navigation (laptop and above - shows in first row) */}
-        <nav className="hidden lg:flex gap-6 backdrop-blur-[5px] bg-white/10 px-6 py-2 rounded-lg text-base font-medium">
+        <nav className="hidden lg:flex gap-6 backdrop-blur-[5px] bg-white/10 px-6 py-3 rounded-lg text-base font-medium">
           <a href="#" className="hover:text-[#F3E063] transition-colors">Home</a>
           <a href="#" className="hover:text-[#F3E063] transition-colors">About</a>
           <a href="#" className="hover:text-[#F3E063] transition-colors">Services</a>
@@ -48,7 +48,7 @@ const Header = () => {
       </div>
 
       {/* Second Row: Tablet Navigation (centered, only shows on md to lg) */}
-      <nav className="hidden md:flex lg:hidden max-w-7xl gap-6 backdrop-blur-[5px] bg-white/10 px-6 py-2 rounded-lg text-base font-medium justify-center mb-4 w-fit mx-auto">
+      <nav className="hidden md:flex lg:hidden max-w-7xl gap-6 backdrop-blur-[5px] bg-white/10 px-6 py-3 rounded-lg text-base font-medium justify-center mb-4 w-fit mx-auto">
         <a href="#" className="hover:text-[#F3E063] transition-colors">Home</a>
         <a href="#" className="hover:text-[#F3E063] transition-colors">About</a>
         <a href="#" className="hover:text-[#F3E063] transition-colors">Services</a>

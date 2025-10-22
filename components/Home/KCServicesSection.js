@@ -87,11 +87,11 @@ const KCServicesSection = () => {
             return (
               <div
                 key={index}
-                className="bg-white hover:bg-blue-600 p-6 flex flex-col justify-between h-[240px] group transition-all duration-300 hover:shadow-lg cursor-pointer"
+                className="bg-white hover:bg-[#184FA1] p-6 flex flex-col justify-between h-[280px] group transition-all duration-300 hover:shadow-lg cursor-pointer"
               >
                 {/* Icon */}
                 <div className="mb-4">
-                  <div className="w-12 h-12 rounded-xl bg-white group-hover:bg-white/20 flex items-center justify-center transition-colors duration-300">
+                  <div className="w-12 h-12 rounded-xl bg-white group-hover:bg-[#184FA1] flex items-center justify-center transition-colors duration-300">
                     <IconComponent
                       size={24}
                       className="text-gray-700 group-hover:text-white transition-colors duration-300"
@@ -101,17 +101,18 @@ const KCServicesSection = () => {
 
                 {/* Content */}
                 <div className="flex-grow">
-                  <h3 className="text-lg font-semibold text-gray-900 group-hover:text-white mb-3 leading-tight transition-colors duration-300">
+                  <h3 className="text-lg font-semibold text-primary group-hover:text-white mb-3 leading-tight transition-colors duration-300">
                     {service.title}
                   </h3>
-                  <p className="text-sm text-gray-600 group-hover:text-white/90 leading-relaxed mb-6 transition-colors duration-300">
+                  <p className="text-sm text-description group-hover:text-white/90 leading-relaxed mb-6 transition-colors duration-300">
                     {service.description}
                   </p>
                 </div>
 
                 {/* Details Link */}
                 <div className="mt-auto">
-                  <button className="text-sm font-medium text-gray-900 group-hover:text-white flex items-center gap-2 hover:gap-3 transition-all duration-300">
+                  <button className="text-sm p-3 font-medium text-primary border border-[#171D2F33] group-hover:border-white group-hover:text-white flex items-center gap-2 hover:gap-3 transition-all duration-300">
+                    {" "}
                     Details
                     <span className="text-xs">→</span>
                   </button>
