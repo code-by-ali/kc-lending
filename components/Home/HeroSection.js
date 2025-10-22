@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-12 px-6 lg:px-8">
         {/* Left Content */}
         <div className="flex-1 text-center md:text-left">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold leading-relaxed tracking-[-3px]">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold leading-relaxed tracking-[-1px]">
             Tailored Mortgage <br className="hidden sm:block" />
             Support Built <br className="hidden sm:block" />
             Around Your Needs
