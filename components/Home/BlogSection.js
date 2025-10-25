@@ -72,7 +72,7 @@ const BlogSection = () => {
 
         {/* Button */}
         <div className="text-center mt-12">
-          <button className="cursor-pointer px-10 py-4 gradient-bg text-white rounded-lg font-medium hover:bg-[#0f3e85] transition-colors duration-300">
+          <button className="cursor-pointer px-10 py-4 gradient-bg text-white rounded-lg font-medium">
             View All
           </button>
         </div>
