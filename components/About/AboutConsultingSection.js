@@ -2,21 +2,24 @@ import React from "react";
 import { Settings, TrendingUp, Lightbulb } from "lucide-react";
 import ConsultingImg from "@/public/assets/about-consulting-img.svg";
 import CommonImage from "../common/CommonImage";
+import ConsultingIcon1 from "@/public/assets/about-consulting-icon-1.svg";
+import ConsultingIcon2 from "@/public/assets/about-consulting-icon-2.svg";
+import ConsultingIcon3 from "@/public/assets/about-consulting-icon-3.svg";
 
 export default function AboutConsultingSection() {
   const services = [
     {
-      icon: Settings,
+      icon: ConsultingIcon1,
       title: "Strategic Planning",
       description: "Define clear goals and chart the path.",
     },
     {
-      icon: TrendingUp,
+      icon: ConsultingIcon2,
       title: "Operational Growth",
       description: "Streamline processes to scale efficiently.",
     },
     {
-      icon: Lightbulb,
+      icon: ConsultingIcon3,
       title: "Digital Evolution",
       description: "Leverage technology to transform.",
     },
@@ -58,15 +61,16 @@ export default function AboutConsultingSection() {
             {/* Service Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 sm:mt-6">
               {services.map((service, index) => {
-                const Icon = service.icon;
                 return (
-                  <div 
-                    key={index} 
-                    className="bg-white rounded-xl p-5 sm:p-6 hover:shadow-lg transition-shadow"
+                  <div
+                    key={index}
+                    className="bg-white rounded-xl p-5 sm:p-6 hover:shadow-lg transition-shadow flex flex-col gap-2"
                   >
-                    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#EEF2FF] rounded-full flex items-center justify-center mb-3 sm:mb-4">
-                      <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-[#20479E]" />
-                    </div>
+                    <CommonImage
+                      src={service.icon.src || service.icon}
+                      className="w-16 h-16 mb-10"
+                    />
+
                     <h3 className="text-primary font-medium text-base sm:text-lg md:text-xl mb-1 sm:mb-2">
                       {service.title}
                     </h3>

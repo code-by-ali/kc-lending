@@ -1,25 +1,29 @@
 import React from "react";
 import { Search, Settings, Rocket } from "lucide-react";
+import ProcessIcon1 from "@/public/assets/about-process-icon-1.svg";
+import ProcessIcon2 from "@/public/assets/about-process-icon-2.svg";
+import ProcessIcon3 from "@/public/assets/about-process-icon-3.svg";
+import CommonImage from "../common/CommonImage";
 
 export default function ProcessSection() {
   const steps = [
     {
       number: "01",
-      icon: Search,
+      icon: ProcessIcon1,
       title: "Discover & Diagnose",
       description:
         "We begin by deeply understanding your organization's unique challenges, opportunities, and goals.",
     },
     {
       number: "02",
-      icon: Settings,
+      icon: ProcessIcon2,
       title: "Strategize & Plan",
       description:
         "With insights in hand, we co-create a tailored strategy that aligns with your business objectives.",
     },
     {
       number: "03",
-      icon: Rocket,
+      icon: ProcessIcon3,
       title: "Implement & Optimize",
       description:
         "We translate strategy into action by deploying solutions, streamlining processes, and enabling teams.",
@@ -52,7 +56,6 @@ export default function ProcessSection() {
 
             <div className="space-y-12">
               {steps.map((step, index) => {
-                const Icon = step.icon;
                 return (
                   <div key={index} className="relative flex gap-6">
                     {/* Number Circle */}
@@ -63,15 +66,18 @@ export default function ProcessSection() {
                     {/* Content */}
                     <div className="flex-1 pt-1 p-4">
                       {/* Icon Circle */}
-                      <div className="w-12 h-12 bg-[#EAEAFF] rounded-full flex items-center justify-center mb-4">
-                        <Icon className="w-6 h-6 text-primary-blue" />
+                      <div className="w-16 h-16 bg-[#EAEAFF] rounded-full flex items-center justify-center mb-4">
+                        <CommonImage
+                          src={step.icon.src || step.icon}
+                          className="w-7 h-7 text-primary-blue"
+                        />
                       </div>
 
                       {/* Title and Description */}
                       <h3 className="text-xl md:text-2xl font-medium text-primary mb-2">
                         {step.title}
                       </h3>
-                      <p className="text-primary/30 text-sm md:text-base font-normal leading-relaxed">
+                      <p className="text-primary/60 text-sm md:text-base font-normal leading-relaxed">
                         {step.description}
                       </p>
                     </div>

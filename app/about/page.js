@@ -9,8 +9,8 @@ import ProcessSection from "@/components/About/ProcessSection";
 const page = () => {
   return (
     <div>
-      <AboutBanner />
-      {/* <AboutLogoSection />
+      {/* <AboutBanner />
+      <AboutLogoSection />
       <AboutConsultingSection />
       <MissionVisionSection />
       <CorePrinciples />
