@@ -9,12 +9,12 @@ import ProcessSection from "@/components/About/ProcessSection";
 const page = () => {
   return (
     <div>
-      {/* <AboutBanner />
+      <AboutBanner />
       <AboutLogoSection />
       <AboutConsultingSection />
       <MissionVisionSection />
       <CorePrinciples />
-      <ProcessSection /> */}
+      <ProcessSection />
     </div>
   );
 };
