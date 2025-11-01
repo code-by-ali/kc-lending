@@ -33,7 +33,7 @@ const Header = () => {
           <a href="/about" className="hover:text-[#F3E063] transition-colors">
             About
           </a>
-          <a href="#" className="hover:text-[#F3E063] transition-colors">
+          <a href="/loan-programs" className="hover:text-[#F3E063] transition-colors">
             Services
           </a>
           <a href="#" className="hover:text-[#F3E063] transition-colors">
@@ -69,7 +69,7 @@ const Header = () => {
         <a href="/about" className="hover:text-[#F3E063] transition-colors">
           About
         </a>
-        <a href="#" className="hover:text-[#F3E063] transition-colors">
+        <a href="/loan-programs" className="hover:text-[#F3E063] transition-colors">
           Services
         </a>
         <a href="#" className="hover:text-[#F3E063] transition-colors">
@@ -89,7 +89,7 @@ const Header = () => {
           <a href="/about" className="hover:text-[#F3E063] transition-colors">
             About
           </a>
-          <a href="#" className="hover:text-[#F3E063] transition-colors">
+          <a href="/loan-programs" className="hover:text-[#F3E063] transition-colors">
             Services
           </a>
           <a href="#" className="hover:text-[#F3E063] transition-colors">
