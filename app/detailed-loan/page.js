@@ -8,11 +8,11 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      {/* <DetailedLoanSection />
+      <DetailedLoanSection />
       <OtherPrograms />
       <NeedHelpSection />
       <FAQSection />
-      <BlogSection /> */}
+      <BlogSection />
     </div>
   );
 };
