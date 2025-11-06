@@ -1,6 +1,5 @@
-import DetailedLoanBanner from "@/components/DetailedLoan/DetailedLoanBanner";
-import DetailedLoanSection from "@/components/DetailedLoan/DetailedLoanSection";
-import OtherProgramsCarousel from "@/components/DetailedLoan/OtherProgramsCarousel";
+import AllBlogsBanner from "@/components/Blogs/AllBlogsBanner";
+import AllBlogsSections from "@/components/Blogs/AllBlogsSections";
 import BlogSection from "@/components/Home/BlogSection";
 import FAQSection from "@/components/Home/FAQSection";
 import NeedHelpSection from "@/components/Home/NeedHelpSection";
@@ -9,9 +8,8 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <DetailedLoanBanner />
-      <DetailedLoanSection />
-      <OtherProgramsCarousel />
+      <AllBlogsBanner />
+      <AllBlogsSections />
       <NeedHelpSection />
       <FAQSection />
       <BlogSection />
