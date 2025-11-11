@@ -80,56 +80,62 @@ export default function OtherBlogsCarousel() {
     pauseOnHover: true,
     swipeToSlide: true,
     touchThreshold: 10,
+    centerMode: false,
+    variableWidth: false,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 2.2,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 640,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.15,
           slidesToScroll: 1,
+          centerMode: false,
+          centerPadding: '0px',
         },
       },
     ],
   };
 
   return (
-    <div className="w-full bg-primary-blue py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
-      <div className="max-w-7xl mx-auto">
-        <div className="mb-8">
-          <p className="text-white text-lg md:text-xl font-semibold mb-2">
+    <div className="w-full bg-primary-blue py-12 sm:py-16 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mb-6 sm:mb-8">
+          <p className="text-white text-base sm:text-lg md:text-xl font-semibold mb-2">
             More from KC
           </p>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
             Other Blogs
           </h2>
         </div>
+      </div>
 
-        <div className="-mx-3">
+      <div className="w-full">
+        <div className="ml-4 sm:ml-6 lg:ml-8">
           <Slider {...settings}>
             {allBlogs.map((blog, index) => {
               return (
-                <div key={index} className="px-3">
+                <div key={index} className="pr-3 sm:pr-4">
                   <div className="group cursor-pointer">
-                    <div className="overflow-hidden rounded-2xl">
+                    <div className="overflow-hidden rounded-xl sm:rounded-2xl">
                       <CommonImage
                         src={blog.image.src || blog.image}
                         alt={blog.title}
-                        className="w-full h-full object-cover rounded-2xl"
+                        className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-xl sm:rounded-2xl"
                       />
                     </div>
-                    <div className="mt-4">
-                      <div className="flex items-center gap-3 text-sm md:text-base text-white uppercase tracking-wider">
+                    <div className="mt-3 sm:mt-4 pr-2">
+                      <div className="flex items-center gap-2 sm:gap-3 text-xs sm:text-sm text-white uppercase tracking-wider">
                         <span>{blog.category}</span>
-                        <span className="w-4 h-[2px] bg-white opacity-50" />
-                        <span>{blog.date}</span>
+                        <span className="w-3 sm:w-4 h-[2px] bg-white opacity-50" />
+                        <span className="text-[10px] sm:text-xs">{blog.date}</span>
                       </div>
-                      <h3 className="mt-3 text-lg md:text-xl lg:text-2xl font-semibold text-white leading-snug">
+                      <h3 className="mt-2 sm:mt-3 text-base sm:text-lg md:text-xl lg:text-2xl font-semibold text-white leading-snug line-clamp-2">
                         {blog.title}
                       </h3>
                     </div>
