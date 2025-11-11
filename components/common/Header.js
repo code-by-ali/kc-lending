@@ -12,7 +12,10 @@ const Header = () => {
       {/* First Row: Logo, Nav (on lg+), Phone, Get Started */}
       <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
-        <div className="flex items-center gap-2 backdrop-blur-[5px] bg-white/10 px-4 py-2 rounded-lg cursor-pointer">
+        <div
+          onClick={() => (window.location.href = "/")}
+          className="flex items-center gap-2 backdrop-blur-[5px] bg-white/10 px-4 py-2 rounded-lg cursor-pointer"
+        >
           <CommonImage
             src={KCLogo.src || KCLogo}
             alt="KC Lending Logo"
@@ -33,10 +36,13 @@ const Header = () => {
           <a href="/about" className="hover:text-[#F3E063] transition-colors">
             About
           </a>
-          <a href="/loan-programs" className="hover:text-[#F3E063] transition-colors">
+          <a
+            href="/loan-programs"
+            className="hover:text-[#F3E063] transition-colors"
+          >
             Services
           </a>
-          <a href="#" className="hover:text-[#F3E063] transition-colors">
+          <a href="/blogs" className="hover:text-[#F3E063] transition-colors">
             Blog
           </a>
         </nav>
@@ -69,10 +75,13 @@ const Header = () => {
         <a href="/about" className="hover:text-[#F3E063] transition-colors">
           About
         </a>
-        <a href="/loan-programs" className="hover:text-[#F3E063] transition-colors">
+        <a
+          href="/loan-programs"
+          className="hover:text-[#F3E063] transition-colors"
+        >
           Services
         </a>
-        <a href="#" className="hover:text-[#F3E063] transition-colors">
+        <a href="/blogs" className="hover:text-[#F3E063] transition-colors">
           Blog
         </a>
       </nav>
@@ -89,10 +98,13 @@ const Header = () => {
           <a href="/about" className="hover:text-[#F3E063] transition-colors">
             About
           </a>
-          <a href="/loan-programs" className="hover:text-[#F3E063] transition-colors">
+          <a
+            href="/loan-programs"
+            className="hover:text-[#F3E063] transition-colors"
+          >
             Services
           </a>
-          <a href="#" className="hover:text-[#F3E063] transition-colors">
+          <a href="/blogs" className="hover:text-[#F3E063] transition-colors">
             Blog
           </a>
           <button className="bg-[#F3E063] text-[#1A202C] font-medium px-4 py-2 rounded-xl text-base mt-2 w-full">

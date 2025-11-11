@@ -1,17 +1,12 @@
 "use client";
 import React from "react";
-import Slider from "react-slick";
-import {
-  ArrowRight,
-  Home,
-  Users,
-  Shield,
-  Building2,
-  DollarSign,
-  FileText,
-} from "lucide-react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode, Autoplay } from "swiper/modules";
+import { ArrowRight } from "lucide-react";
+
+import "swiper/css";
+import "swiper/css/free-mode";
+
 import OtherProgramIcon1 from "@/public/assets/detailed-loan-other-program-icon-1.svg";
 import OtherProgramIcon2 from "@/public/assets/detailed-loan-other-program-icon-2.svg";
 import OtherProgramIcon3 from "@/public/assets/detailed-loan-other-program-icon-3.svg";
@@ -56,93 +51,54 @@ export default function OtherProgramsCarousel() {
     },
   ];
 
-  const settings = {
-    dots: false,
-    arrows: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    pauseOnHover: true,
-    swipeToSlide: true,
-    touchThreshold: 10,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-
   return (
-    <div className="w-full bg-primary-blue py-16 px-4 sm:px-6 lg:px-8">
+    <div className="w-full bg-primary-blue py-12 sm:py-16 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 sm:mb-8">
+        <p className="text-white text-base sm:text-lg md:text-xl font-semibold mb-2">
+          More from KC
+        </p>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
+          Other Programs
+        </h2>
+      </div>
+
       <div className="max-w-7xl mx-auto">
-        <div className="mb-8">
-          <p className="text-white text-lg md:text-xl font-semibold mb-2">
-            More from KC
-          </p>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white">
-            Other Programs
-          </h2>
-        </div>
-
-        <style jsx global>{`
-          .slick-dots {
-            bottom: -40px;
-          }
-          .slick-dots li button:before {
-            color: white;
-            opacity: 0.5;
-            font-size: 10px;
-          }
-          .slick-dots li.slick-active button:before {
-            color: white;
-            opacity: 1;
-          }
-          .slick-prev:before,
-          .slick-next:before {
-            color: white;
-            font-size: 24px;
-          }
-          .slick-prev {
-            left: -35px;
-          }
-          .slick-next {
-            right: -35px;
-          }
-          @media (max-width: 640px) {
-            .slick-prev {
-              left: -25px;
-            }
-            .slick-next {
-              right: -25px;
-            }
-          }
-        `}</style>
-
-        <Slider {...settings}>
+        <Swiper
+          modules={[FreeMode, Autoplay]}
+          spaceBetween={16}
+          slidesPerView={1.1}
+          freeMode={true}
+          grabCursor={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2.5,
+              spaceBetween: 24,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 24,
+            },
+          }}
+          className="!px-4 sm:!px-6 lg:!px-8"
+        >
           {programs.map((program, index) => {
             return (
-              <div key={index} className="px-3">
-                <div className="bg-white rounded-xl p-6 h-80 flex flex-col">
-                  <div
-                    className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4`}
-                  >
+              <SwiperSlide key={index}>
+                <div className="bg-white rounded-xl p-6 h-80 flex flex-col select-none">
+                  <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                     <CommonImage
                       src={program.icon.src || program.icon}
-                      className="w-12 h-12 text-white"
+                      className="w-12 h-12"
+                      draggable="false"
                     />
                   </div>
 
@@ -159,10 +115,10 @@ export default function OtherProgramsCarousel() {
                     <ArrowRight className="w-5 h-5 ml-4 text-primary-blue group-hover:translate-x-1 transition-transform" />
                   </button>
                 </div>
-              </div>
+              </SwiperSlide>
             );
           })}
-        </Slider>
+        </Swiper>
       </div>
     </div>
   );
