@@ -89,11 +89,12 @@ const TestimonialsSection = () => {
           {/* Right side content - Appears first on mobile */}
           <div className="lg:order-2 lg:w-2/5 flex flex-col justify-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-white mb-4 tracking-[-0.5%] leading-tight">
-              Highly rated 4.9 out of 5 by 1200+ Customers.
+              Rated 4.9 Out of 5 by Over 1,200 Happy Customers
             </h2>
             <p className="text-white/90 text-sm sm:text-base md:text-lg mb-8 lg:mb-10">
-              We're committed to creating solutions that align with your unique
-              goals and needs.
+              From first-time buyers to seasoned investors, our clients trust us
+              because we deliver what we promise: better rates, faster
+              approvals, and genuine support every step of the way.
             </p>
 
             {/* Rating cards - Side by side on all screens */}

@@ -7,24 +7,40 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "What investment services do you offer?",
+      question:
+        "What's the difference between pre-qualification and pre-approval?",
       answer:
-        "We recommend a diversified portfolio tailored to your individual needs. This may include stocks, bonds, mutual funds, ETFs, real estate.",
+        "Pre-qualification is a quick estimate of what you can borrow. Pre-approval is a verified commitment from a lender after reviewing your financial documents and credit, giving you stronger buying power.",
     },
     {
-      question: "What types of investments do you recommend?",
+      question: "How much down payment do I actually need in California?",
       answer:
-        "We offer a comprehensive range of investment services including portfolio management, retirement planning, tax optimization strategies, and personalized financial advisory services tailored to your goals.",
+        "It depends on your loan type. FHA loans require as little as 3.5% down, while conventional loans can start at 3-5%. VA loans offer zero down for qualified veterans.",
     },
     {
-      question: "How do I get started with investing?",
+      question: "What's the difference between a mortgage broker and a bank?",
       answer:
-        "Getting started is simple. First, schedule a consultation with one of our advisors. We'll assess your financial goals, risk tolerance, and create a customized investment plan that aligns with your objectives.",
+        "A certified mortgage broker like KC Lending accesses 100+ lenders to find your best rate, while banks only offer their own products. Brokers give you more options and often better deals.",
     },
     {
-      question: "What is your approach to risk management?",
+      question: "Will shopping for rates hurt my credit score?",
       answer:
-        "Our risk management approach involves thorough assessment of your risk tolerance, diversification across asset classes, regular portfolio rebalancing, and continuous monitoring of market conditions to protect and grow your investments.",
+        "Multiple mortgage inquiries within 45 days count as one credit check. As the best mortgage broker in your area, we help you compare offers without damaging your score.",
+    },
+    {
+      question: "Can I get a mortgage with student loan debt?",
+      answer:
+        "Yes! Mortgage lenders in California look at your debt-to-income ratio. As long as your total monthly debts (including student loans) don't exceed certain thresholds, you can qualify.",
+    },
+    {
+      question: "What documents do I need to start the mortgage process?",
+      answer:
+        "You'll need recent pay stubs, W-2s or tax returns, bank statements, and ID. As a mortgage broker near me, we guide you step-by-step on exactly what's required.",
+    },
+    {
+      question: "Are there programs for first-time homebuyers in California?",
+      answer:
+        "Absolutely! California offers down payment assistance programs, tax credits, and special loan options specifically designed to help first-time buyers get into homes with less money down.",
     },
   ];
 
@@ -41,7 +57,7 @@ const FAQSection = () => {
             FAQ
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#1A202C] tracking-[-0.5%] leading-tight">
-            Have a Question? Look Here
+            Got Questions? We've Got Answers.
           </h2>
         </div>
 

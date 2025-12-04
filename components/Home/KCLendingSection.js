@@ -8,20 +8,20 @@ const KCLendingSection = () => {
   const [activeTab, setActiveTab] = useState("vision");
 
   const visionContent = {
-    title: "Creating a trusted, stress-free home financing future.",
+    title: "A future where home financing doesn't keep you up at night.",
     benefits: [
-      "To be the most trusted platform for home financing.",
-      "Make mortgage decisions stress-free and accessible to everyone.",
-      "Lead innovation in digital home lending experiences.",
+      "Build lasting relationships with clients who trust us as their “mortgage broker near me” for life.",
+      "Create a lending experience that feels like working with a friend, not a faceless institution.",
+      "Help more California families access homeownership without the stress.",
     ],
   };
 
   const missionContent = {
-    title: "Empowering homeowners with innovative lending solutions.",
+    title: "We're here to make your home loan journey easier, period.",
     benefits: [
-      "Provide transparent and competitive lending rates.",
-      "Deliver personalized service that puts customers first.",
-      "Simplify the home buying process with cutting-edge technology.",
+      "Be the best mortgage broker who listens first, then finds solutions that actually fit your situation.",
+      "Give you access to rates and options most mortgage lenders in California can't offer.",
+      "Handle the heavy lifting so you can focus on what matters: finding your home.",
     ],
   };
 
@@ -45,7 +45,7 @@ const KCLendingSection = () => {
                 Why KC Lending?
               </p>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold tracking-[-3%] text-[#1A202C] leading-tight mb-8">
-                Why choose KC Lending Over a Traditional Bank?
+                Why Smart Buyers Choose KC Lending Over Traditional Banks?
               </h2>
             </div>
 

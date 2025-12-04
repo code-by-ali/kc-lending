@@ -43,15 +43,14 @@ const AboutServiceSection = () => {
           {/* About Us Card */}
           <div className="bg-white rounded-xl shadow-lg p-8 md:p-10 flex flex-col">
             <h2 className="text-2xl md:text-3xl font-semibold text-[#1A202C] mb-4">
-              About Us
+              Dedicated Support
             </h2>
             <p className="text-description font-normal text-base md:text-lg leading-relaxed mb-6">
-              What can you expect from the LBC Mortgage team?
-              <br />
-              Extraordinary, stress-free service that saves you time, energy,
-              and money — all delivered seamlessly by our team of highly
-              experienced professionals. Since 2008, we've closed over $1
-              billion in loans.
+              From your first call to closing day, one dedicated loan officer
+              manages your entire journey. No getting passed around departments
+              or repeating your story. As your “trusted mortgage broker near
+              me”, we're available when you need us: answering questions,
+              providing updates, and ensuring nothing falls through the cracks.
             </p>
 
             {/* Image */}
@@ -67,13 +66,14 @@ const AboutServiceSection = () => {
           {/* Best Service Card */}
           <div className="bg-white rounded-xl shadow-lg p-8 md:p-10 flex flex-col">
             <h2 className="text-2xl md:text-3xl font-semibold text-[#1A202C] mb-4">
-              Best Service
+              Fast Approvals
             </h2>
             <p className="text-description font-normal text-base md:text-lg leading-relaxed mb-6">
-              You deserve a truly personalized mortgage experience, something
-              traditional banks don't provide. They typically treat you like any
-              other number on a spreadsheet, while LBC Mortgage sees and honours
-              the story behind the numbers.
+              Time matters in competitive markets. Our streamlined process and
+              in-house underwriting mean you get pre-approved fast, often the
+              same day. Working with the best mortgage broker in California, who
+              moves quickly, gives you the edge to make strong offers and close
+              deals before they slip away to cash buyers.
             </p>
 
             {/* Image */}

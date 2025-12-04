@@ -52,10 +52,12 @@ const MortgageCalculatorSection = () => {
               Mortgage Calculator
             </p>
             <h2 className="text-3xl md:text-4xl font-semibold text-primary mb-6 tracking-[-1%] leading-tight">
-              The new way to find you a better loans.
+              Know Your Numbers Before You Start
             </h2>
             <p className="text-description text-sm md:text-base mb-12 font-medium">
-              Find your dream place to live in with more than 10k+ loans listed.
+              Get clarity on your monthly payments with our free mortgage
+              calculator. Work with the best mortgage broker California to turn
+              your estimate into reality.
             </p>
 
             {/* Stats */}

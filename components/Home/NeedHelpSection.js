@@ -9,19 +9,19 @@ const NeedHelpSection = () => {
   const contactOptions = [
     {
       icon: <Phone className="w-6 h-6 text-[#1751A8]" />,
-      title: "Any Questions?",
-      subtitle: "Mon-Fri (9-5pm)",
+      title: "Got Questions?",
+      subtitle: "Mon-Fri (9am-5pm)",
       action: "Call Now",
     },
     {
       icon: <Mail className="w-6 h-6 text-[#1751A8]" />,
-      title: "Prefer Writing?",
-      subtitle: "Send an email",
+      title: "Prefer Email?",
+      subtitle: "Send a message",
       action: "Write Now",
     },
     {
       icon: <MessageCircle className="w-6 h-6 text-[#1751A8]" />,
-      title: "Need Advice?",
+      title: "Need Guidance?",
       subtitle: "Talk to an expert",
       action: "Book Now",
     },
@@ -35,18 +35,18 @@ const NeedHelpSection = () => {
           {/* Left - Title */}
           <div className="flex-shrink-0">
             <p className="text-[#20479E] text-base md:text-lg lg:text-xl font-semibold mb-3 tracking-[-2%]">
-              Need Help?
+              Get in touch
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-[40px] font-semibold text-[#1A202C] tracking-[-3%] leading-tight">
-              Need a Hand? We've Got You.
+              Have Questions? We're Here to Help!
             </h2>
           </div>
 
           {/* Right - Description */}
           <div className="lg:max-w-md">
             <p className="text-[#6C727F] text-lg md:text-xl lg:text-2xl">
-              We're committed to creating solutions that align with your unique
-              goals and needs.
+              Whether you're exploring options or ready to apply, our team makes
+              it easy to get the answers and guidance you need.
             </p>
           </div>
         </div>
@@ -63,10 +63,11 @@ const NeedHelpSection = () => {
             {/* New to KC Lending Card */}
             <div className="mb-8">
               <h3 className="text-xl md:text-2xl font-semibold text-[#1A202C] mb-2 tracking-[-0.5%]">
-                New to KC Lending?
+                Just Getting Started?
               </h3>
               <p className="text-[#6C727F] text-base md:text-lg tracking-[-0.2px]">
-                Our Synox team is happy to help you with all things insurance.
+                Our KC Lending team is ready to answer your questions and help
+                you find the perfect loan.
               </p>
             </div>
 
@@ -111,7 +112,8 @@ const NeedHelpSection = () => {
                     Already a customer?
                   </h3>
                   <p className="text-white text-sm sm:text-base md:text-lg mb-4 sm:mb-6 text-center">
-                    Make a claim, manage your insurance or ask a question.
+                    Access your loan dashboard, track progress, or connect with
+                    your loan officer.
                   </p>
                   <button className="w-full bg-white text-[#1751A8] font-bold py-3 px-6 rounded-lg tracking-[-0.2%] hover:bg-gray-50 transition-colors">
                     Log In

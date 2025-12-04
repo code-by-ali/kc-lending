@@ -13,12 +13,12 @@ const HowItWorksSection = () => {
     },
     {
       id: 2,
-      title: "Get your loan approved",
+      title: "Get your loan approved with competitive rates",
       image: HowItWorksImg2,
     },
     {
       id: 3,
-      title: "Sign the Paperwork and Done",
+      title: "Sign the Paperwork and you're all done",
       image: HowItWorksImg3,
     },
   ];
@@ -35,11 +35,12 @@ const HowItWorksSection = () => {
             HOW IT WORKS
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-4xl font-semibold text-white mb-6 tracking-[-3%]">
-            Few Easy Steps and Done
+            Getting Your Loan Approved Is Easier Than You Think
           </h2>
           <p className="text-white text-base md:text-lg lg:text-xl max-w-2xl font-normal mx-auto tracking-[-2%]">
-            In just few easy step, you are all set to obtain a mortgage. Manage
-            your loans with KC Lending. In all in one place.
+            No endless back-and-forth or confusing steps. As your trusted
+            mortgage broker in California, we handle everything so you can move
+            forward with confidence. Here is how it works:
           </p>
         </div>
 

@@ -14,43 +14,51 @@ const KCServicesSection = () => {
   const services = [
     {
       icon: ShoppingCart,
-      title: "Loan Shopping & Comparison",
-      description: "Access wholesale rates and National lenders",
+      title: "FHA Loans",
+      description:
+        "Low down payment options with flexible credit requirements, perfect for buyers who are just starting their homeownership journey.",
     },
     {
       icon: TrendingUp,
-      title: "Pre-Approval Assistance",
-      description: "Strengthen your offer with verified budgets",
+      title: "VA Loans",
+      description:
+        "Exclusive benefits for veterans and active military, including zero down payment and no private mortgage insurance required.",
     },
     {
       icon: FileText,
-      title: "Loan Application Management",
-      description: "From paperwork to underwriting, we handle it",
+      title: "First-Time Homebuyer Programs",
+      description:
+        "Special assistance programs with down payment help and competitive rates to make your first home more affordable.",
     },
     {
       icon: BarChart3,
-      title: "Expert Guidance",
-      description: "Choose right loan, understand closing costs, and more",
+      title: "Conventional Loans",
+      description:
+        "Traditional financing with competitive rates for buyers with strong credit and stable income looking for flexibility.",
     },
     {
       icon: HelpCircle,
-      title: "Problem Solving",
-      description: "For non-traditional borrowers and unique scenarios",
+      title: "Commercial Real Estate Loans",
+      description:
+        "Financing solutions for investment properties, multi-family units, and commercial buildings to grow your real estate portfolio.",
     },
     {
       icon: Users,
-      title: "Closing Co-ordination",
-      description: "We work with your realtor, title/title company",
+      title: "Hard Money Loans",
+      description:
+        "Fast, asset-based financing for fix-and-flip investors or borrowers who need quick closings on time-sensitive deals.",
     },
     {
       icon: RefreshCw,
-      title: "Refinance & Second Mortgage Solutions",
-      description: "Save HOH your realtor, title/title company",
+      title: "DSCR Loans",
+      description:
+        "Income-based loans for real estate investors, qualify based on property cash flow, not personal tax returns.",
     },
     {
       icon: DollarSign,
-      title: "Private Equity Loan Assistance",
-      description: "We work with your realtor, title/title company",
+      title: "Jumbo Loans",
+      description:
+        "Financing for luxury homes and high-value properties that exceed conventional loan limits in California's premium markets.",
     },
   ];
 
@@ -67,7 +75,7 @@ const KCServicesSection = () => {
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              What services do we offer for your real estate
+              Loan Programs Designed to Fit Every Situation
             </h2>
           </div>
 
@@ -87,7 +95,7 @@ const KCServicesSection = () => {
             return (
               <div
                 key={index}
-                className="bg-white hover:bg-[#184FA1] p-6 flex flex-col justify-between h-[280px] group transition-all duration-300 hover:shadow-lg cursor-pointer"
+                className="bg-white hover:bg-[#184FA1] p-6 flex flex-col justify-between h-[300px] group transition-all duration-300 hover:shadow-lg cursor-pointer"
               >
                 {/* Icon */}
                 <div className="mb-4">
@@ -113,7 +121,7 @@ const KCServicesSection = () => {
                 <div className="mt-auto">
                   <button className="text-sm p-3 font-medium text-primary border border-[#171D2F33] group-hover:border-white group-hover:text-white flex items-center gap-2 hover:gap-3 transition-all duration-300">
                     {" "}
-                    Details
+                    Learn More
                     <span className="text-xs">→</span>
                   </button>
                 </div>

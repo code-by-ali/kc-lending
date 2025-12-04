@@ -5,16 +5,16 @@ import CommonImage from "../common/CommonImage";
 
 const ComparisonTableSection = () => {
   const services = [
-    { name: "Instant Online Buying", kc: true, other: false },
-    { name: "No Hidden Fees", kc: true, other: false },
-    { name: "Save Time And Money", kc: true, other: false },
-    { name: "100% Independent", kc: true, other: true },
-    { name: "Compare Cost And Futures", kc: true, other: false },
-    { name: "Available 24/7", kc: true, other: false },
-    { name: "No Claim Bonus", kc: true, other: true },
-    { name: "Claim Settlement Ratio", kc: true, other: true },
-    { name: "Own Damage Cover", kc: true, other: false },
-    { name: "Third party's death or injury", kc: true, other: false },
+    { name: "No Administrative or Broker Fees", kc: true, other: false },
+    { name: "Access to 100+ Lenders", kc: true, other: false },
+    { name: "Same-Day Pre-Approvals", kc: true, other: false },
+    { name: "Personalized Loan Solutions", kc: true, other: true },
+    { name: "In-House Underwriting", kc: true, other: true },
+    { name: "Minimal Paperwork Process", kc: true, other: false },
+    { name: "Wholesale Rate Access", kc: true, other: false },
+    { name: "Dedicated Loan Officer", kc: true, other: false },
+    { name: "Self-Employed Loan Programs", kc: true, other: false },
+    { name: "Bridge Loan Options", kc: true, other: false },
   ];
 
   return (
@@ -47,9 +47,9 @@ const ComparisonTableSection = () => {
         {/* Header */}
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-white mb-4 tracking-[-0.5%] leading-tight px-4">
-            That Makes Us the Best Car
+            KC Lending Mortgage Broker
             <br />
-            Insurance Provider
+            Vs. Traditional Banks
           </h2>
         </div>
 

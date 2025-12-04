@@ -14,14 +14,15 @@ const HeroSection = () => {
         {/* Left Content */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold leading-relaxed tracking-[-1px]">
-            Tailored Mortgage <br className="hidden sm:block" />
-            Support Built <br className="hidden sm:block" />
-            Around Your Needs
+            Lets Find You a <br className="hidden sm:block" />
+            Mortagage That <br className="hidden sm:block" />
+            Fits Your Life
           </h1>
 
           <p className="text-blue-100 mt-4 max-w-lg mx-auto md:mx-0 text-sm sm:text-base md:text-lg font-normal tracking-[-0.36px]">
-            we want you to lean on us as we explore loan and rate options to see
-            what might work best for your financial picture.
+            As certified mortgage brokers in California, we cut through the
+            complexity and find you the right loan, without the stress
+            traditional lenders put you through.
           </p>
 
           {/* Buttons + Ratings */}

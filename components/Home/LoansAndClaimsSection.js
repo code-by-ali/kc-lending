@@ -5,27 +5,32 @@ const LoansAndClaimsSection = () => {
     {
       id: "01",
       title: "Home Loans",
-      description: "Contact our support team and report your claim.",
+      description:
+        "Get pre-approved fast and shop with confidence knowing your budget and buying power.",
     },
     {
       id: "02",
       title: "Refinance",
-      description: "Provide the necessary documents for verification.",
+      description:
+        "Lower your rate, reduce monthly payments, or tap into equity for life's big expenses.",
     },
     {
       id: "03",
       title: "Purchase",
-      description: "We review and process your claim promptly.",
+      description:
+        "From offer to closing, we guide you through every step of buying your new home.",
     },
     {
       id: "04",
       title: "Second Mortgage",
-      description: "Approved claims are settled without delay.",
+      description:
+        "Access your home's equity without refinancing your primary loan or losing your current rate.",
     },
     {
       id: "05",
       title: "Private Equity",
-      description: "Approved claims are settled without delay.",
+      description:
+        "Alternative financing solutions for investors and borrowers who need flexible, creative lending options",
     },
   ];
 
@@ -39,7 +44,7 @@ const LoansAndClaimsSection = () => {
               More from KC
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-[40px] font-semibold text-white mb-8 tracking-[-3%] leading-tight">
-              Loans and Claims Simplified from KC Lending
+              Everything You Need Under One Roof
             </h2>
             <div className="flex flex-wrap gap-4">
               <button className="bg-[#F3E063] text-[#1A202C] tracking-[-2%] text-sm md:text-base font-semibold px-6 py-3 rounded-xl">
@@ -54,7 +59,10 @@ const LoansAndClaimsSection = () => {
           {/* Right Column - Loan Types List */}
           <div className="space-y-10 flex flex-col items-left justify-center">
             {loanTypes.map((loan) => (
-              <div key={loan.id} className="flex gap-4 border-b border-[#184D9D] p-4">
+              <div
+                key={loan.id}
+                className="flex gap-4 border-b border-[#184D9D] p-4"
+              >
                 <div className="flex-shrink-0">
                   <span className="text-white text-xl md:text-2xl lg:text-3xl font-medium tracking-[-1px]">
                     {loan.id}.
