@@ -22,35 +22,37 @@ export default function LoanTypesSection() {
       icon: LoanTypeIcon1,
       title: "FHA Loans",
       description:
-        "Flexible options with low down payments, perfect for first-time buyers.",
+        "Low down payments and flexible credit make homeownership possible for more Californians.",
     },
     {
       icon: LoanTypeIcon2,
       title: "VA Loans",
       description:
-        "Exclusive benefits for veterans, active-duty service members, and their families.",
+        "Exclusive zero-down home loan programs California for veterans and active military.",
     },
     {
       icon: LoanTypeIcon3,
       title: "First-Time Homebuyer Programs",
       description:
-        "Special programs designed to make owning your first home easier.",
+        "Special assistance and lower rates designed specifically for your first home purchase.",
     },
     {
       icon: LoanTypeIcon4,
       title: "Conventional Loans",
-      description: "Competitive rates for buyers with established credit.",
+      description:
+        "Traditional financing with competitive rates for buyers with strong credit and stable income.",
     },
     {
       icon: LoanTypeIcon5,
       title: "Commercial Real Estate Loans",
-      description: "Financing solutions for business owners and investors.",
+      description:
+        "Mortgage lending programs for investors building portfolios and purchasing income-generating properties.",
     },
     {
       icon: LoanTypeIcon6,
       title: "Hard Money Loans",
       description:
-        "Fast and flexible funding for unique or time-sensitive projects.",
+        "Fast, asset-based financing when you need quick closings on time-sensitive real estate deals.",
     },
   ];
 

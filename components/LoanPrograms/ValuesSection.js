@@ -6,19 +6,19 @@ import CommonImage from "../common/CommonImage";
 export default function ValuesSection() {
   const values = [
     {
-      title: "Innovation",
+      title: "Clarity",
       description:
-        "We thrive on innovation, constantly exploring new horizons to give our clients the best solutions that push boundaries and redefine industry standards.",
+        "Mortgages are confusing enough. We break down every rate, fee, and term in simple language so you actually understand what you're signing and feel confident about it.",
     },
     {
-      title: "Collaboration",
+      title: "Hustle",
       description:
-        "We believe in the power of collaboration, fostering diverse perspectives and expertise to drive remarkable outcomes, united by a common goal.",
+        "We return calls same-day, work evenings when deals need it, and treat your loan like it's our own house on the line. Urgency isn't optional here.",
     },
     {
-      title: "Integrity",
+      title: "Loyalty",
       description:
-        "Integrity forms the foundation of our relationships, guiding us to uphold ethical practices, transparency, and honesty in every interaction.",
+        "You're not a transaction number. We remember your name, your story, and your goals, even years after closing when you call with refinancing questions or need help again.",
     },
   ];
 
@@ -30,7 +30,7 @@ export default function ValuesSection() {
           <div className="text-white">
             <p className="text-lg md:text-xl font-semibold mb-2">Our values</p>
             <h2 className="text-3xl md:text-4xl lg:text-[40px] font-semibold mb-8">
-              Our values define us
+              That Help Us Find Your Best Home Loan Options
             </h2>
             <hr />
 
