@@ -10,23 +10,23 @@ export default function ProcessSection() {
     {
       number: "01",
       icon: ProcessIcon1,
-      title: "Discover & Diagnose",
+      title: "Pre-Approval",
       description:
-        "We begin by deeply understanding your organization's unique challenges, opportunities, and goals.",
+        "Tell us about your finances. We check your credit and income, then give you a letter showing how much you can borrow.",
     },
     {
       number: "02",
       icon: ProcessIcon2,
-      title: "Strategize & Plan",
+      title: "Find Your Loan",
       description:
-        "With insights in hand, we co-create a tailored strategy that aligns with your business objectives.",
+        "We compare rates from 100+ lenders and show you the best options. You choose what works for your budget.",
     },
     {
       number: "03",
       icon: ProcessIcon3,
-      title: "Implement & Optimize",
+      title: "Close the Deal",
       description:
-        "We translate strategy into action by deploying solutions, streamlining processes, and enabling teams.",
+        "We handle the paperwork, coordinate everything with the lender, and walk you through signing until you get your keys.",
     },
   ];
 
@@ -40,12 +40,14 @@ export default function ProcessSection() {
               Our Process
             </p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary mb-4 leading-snug">
-              Step-by-Step to
+              From First Call to Closing Day:
               <br />
-              <span className="italic font-serif">Business Growth</span>
+              <span className="italic font-serif">Here's How It Works?</span>
             </h2>
             <p className="text-primary text-base md:text-lg font-normal">
-              How We Turn Strategy Into Measurable Success
+              We've helped hundreds of families get home loans, and honestly,
+              the process is pretty straightforward. Here's what working with
+              local mortgage brokers California actually looks like.
             </p>
           </div>
 

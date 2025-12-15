@@ -64,7 +64,7 @@ const AboutLogoSection = () => {
     <section className="py-10 bg-white">
       <div className="flex items-center justify-center mb-10">
         <p className="text-lg md:text-xl text-primary font-medium">
-          Trusted by nearly 5000+ paying customers
+          Over $500 Million in Loans Closed for Clients Like You!
         </p>
       </div>
       <div className="max-w-6xl mx-auto px-6">

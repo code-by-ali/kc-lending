@@ -10,18 +10,21 @@ export default function AboutConsultingSection() {
   const services = [
     {
       icon: ConsultingIcon1,
-      title: "Strategic Planning",
-      description: "Define clear goals and chart the path.",
+      title: "We Listen First",
+      description:
+        " Your financial story matters. We take time to understand your goals before recommending anything.",
     },
     {
       icon: ConsultingIcon2,
-      title: "Operational Growth",
-      description: "Streamline processes to scale efficiently.",
+      title: "We Save You Money",
+      description:
+        "As California mortgage professionals, we negotiate with lenders on your behalf to secure better terms.",
     },
     {
       icon: ConsultingIcon3,
-      title: "Digital Evolution",
-      description: "Leverage technology to transform.",
+      title: "We Stay With You",
+      description:
+        "One dedicated officer from start to finish. No getting passed around or repeating your story.",
     },
   ];
 
@@ -31,9 +34,9 @@ export default function AboutConsultingSection() {
         {/* Top Row - Heading and Button */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 sm:mb-12 gap-4 sm:gap-6">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight sm:leading-normal">
-            We Believe In Results With
+            35 Years Combined Experience
             <br />
-            Smart <span className="italic font-serif">Consulting.</span>
+            You Can <span className="italic font-serif">Actually Trust!</span>
           </h2>
 
           <button className="bg-[#F3E063] text-primary font-semibold px-6 py-3 rounded-lg whitespace-nowrap hover:bg-[#e8d557] transition-colors">
@@ -47,15 +50,26 @@ export default function AboutConsultingSection() {
           <div className="w-full lg:w-[60%] flex flex-col gap-4 sm:gap-6">
             {/* Description */}
             <p className="text-white text-base sm:text-lg md:text-xl lg:text-2xl font-medium">
-              At KC Lending, we believe that real business growth is rooted in
-              strategy, insight, and execution. As a results-driven consulting
-              firm for you.
+              KC Lending Inc. started in 2012 because we got tired of seeing
+              mortgage company California treat people like paperwork instead
+              of, you know, actual people. Our team has over 35 years of
+              combined experience in real estate financing, and we've learned
+              what works and what doesn't. Spoiler: what works is being honest,
+              returning calls, and not hiding fees in fine print.
             </p>
 
             <p className="text-white text-sm sm:text-base md:text-lg leading-relaxed">
-              Our approach blends deep industry insight, extensive experience,
-              and strategic thinking to solve complex challenges, innovation,
-              and deliver measurable, lasting business value.
+              We help people buy their first homes, move into bigger places,
+              invest in properties, and everything in between. Whether you need
+              a residential loan, commercial financing, or hard money for a
+              quick deal, we're here to figure it out with you. That's why
+              people call us trusted mortgage brokers in California, because we
+              do what we say we'll do, explain things clearly, and stick around
+              after closing to answer questions down the road.
+            </p>
+
+            <p className="text-white text-sm sm:text-base md:text-lg font-bold leading-relaxed">
+              What Makes Us Different?
             </p>
 
             {/* Service Cards */}

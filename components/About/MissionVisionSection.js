@@ -7,15 +7,15 @@ import CommonImage from "../common/CommonImage";
 
 export default function MissionVisionSection() {
   const missionPoints = [
-    "Deliver results-driven strategies aligned with your goals",
-    "Empower organizations to grow and lead in a changing market",
-    "Ensure partnerships built on trust and measurable impact",
+    "Connect you with loan programs designed for your unique situation",
+    "Secure competitive rates by leveraging relationships with 100+ lenders",
+    "Support you from application to keys with personalized, pressure-free service",
   ];
 
   const visionPoints = [
-    "Deliver results-driven strategies aligned with your goals",
-    "Empower organizations to grow and lead in a changing market",
-    "Ensure partnerships built on trust and measurable impact",
+    "Be the go-to resource for homebuyers seeking honest, expert guidance",
+    "Set the industry standard for transparency and customer-first service",
+    "Build a legacy where clients return for life and refer everyone they know",
   ];
 
   return (
@@ -29,13 +29,15 @@ export default function MissionVisionSection() {
               Our Mission
             </p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary mb-4 leading-snug">
-              The new way to
+              Making Homeownership Accessible
               <br />
-              find a <span className="italic font-serif">Better loans</span>
+              for <span className="italic font-serif">Every Californian</span>
             </h2>
             <p className="text-primary/70 text-base font-normal mb-6">
-              As a lending co, mission is to empower businesses with strategic
-              solutions that drive growth, efficiency, and transformation.
+              As a trusted mortgage broker in California, our mission is to
+              remove barriers, simplify complexity, and put homeownership within
+              reach for people who deserve it, not just those who fit a perfect
+              box.
             </p>
 
             {/* Points */}
@@ -90,13 +92,16 @@ export default function MissionVisionSection() {
               Our Vision
             </p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-primary mb-4 leading-snug">
-              The new way to
+              Becoming California's
               <br />
-              find a <span className="italic font-serif">Better loans</span>
+              Most <span className="italic font-serif">Recommended</span>{" "}
+              Mortgage Partner
             </h2>
             <p className="text-primary/70 text-base font-normal mb-6">
-              As a lending co, mission is to empower businesses with strategic
-              solutions that drive growth, efficiency, and transformation.
+              Our vision is simple: make KC Lending synonymous with trust,
+              excellence, and results. We want to be the California mortgage
+              experts every family turns to when they're ready to buy,
+              refinance, or invest in their future.
             </p>
 
             {/* Points */}

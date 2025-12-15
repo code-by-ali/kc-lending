@@ -13,9 +13,7 @@ export default function AboutBanner() {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto min-h-[350px] text-center flex items-center justify-center">
         <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold text-white">
-          Get to know more
-          <br />
-          about KC Lending
+          About KC Lending: California Mortgage Brokers Who Work for You
         </h2>
       </div>
     </div>
