@@ -1,4 +1,4 @@
-import OtherProgramsCarousel from "@/components/DetailedLoan/OtherProgramsCarousel";
+import OtherProgramsCarousel from "@/components/FHALoan/OtherProgramsCarousel";
 import HardMoneyBanner from "@/components/HardMoneyLoans/HardMoneyBanner";
 import HardMoneySection from "@/components/HardMoneyLoans/HardMoneySection";
 import BlogSection from "@/components/Home/BlogSection";

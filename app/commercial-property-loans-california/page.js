@@ -1,6 +1,6 @@
 import CPLCBanner from "@/components/CommercialPropertyLoansCalifornia/CPLCBanner";
 import CPLCSection from "@/components/CommercialPropertyLoansCalifornia/CPLCSection";
-import OtherProgramsCarousel from "@/components/DetailedLoan/OtherProgramsCarousel";
+import OtherProgramsCarousel from "@/components/FHALoan/OtherProgramsCarousel";
 import BlogSection from "@/components/Home/BlogSection";
 import FAQSection from "@/components/Home/FAQSection";
 import NeedHelpSection from "@/components/Home/NeedHelpSection";

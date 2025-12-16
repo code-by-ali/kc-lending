@@ -1,4 +1,4 @@
-import OtherProgramsCarousel from "@/components/DetailedLoan/OtherProgramsCarousel";
+import OtherProgramsCarousel from "@/components/FHALoan/OtherProgramsCarousel";
 import FTHPBanner from "@/components/FTHP/FTHPBanner";
 import FTHPSection from "@/components/FTHP/FTHPSection";
 import BlogSection from "@/components/Home/BlogSection";

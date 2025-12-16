@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DetailedLoanBanner() {
+export default function FHALoanBanner() {
   return (
     <div className="relative w-full bg-primary-blue py-16 px-4 sm:px-6 lg:px-8 overflow-hidden min-h-[400px]">
       {/* Background text "Contact" */}
