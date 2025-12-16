@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function FTHPBanner() {
+export default function VALoansBanner() {
   return (
     <div className="relative w-full bg-primary-blue py-16 px-4 sm:px-6 lg:px-8 overflow-hidden min-h-[400px]">
       {/* Background text "Contact" */}
@@ -13,7 +13,7 @@ export default function FTHPBanner() {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto min-h-[350px] text-center flex items-center justify-center">
         <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold text-white">
-          First Home Loan Programs California
+          VA Loans California
         </h2>
       </div>
     </div>
