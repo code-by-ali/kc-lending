@@ -1,8 +1,8 @@
 import CLBanner from "@/components/ConventionalLoans/CLBanner";
+import CLFAQSection from "@/components/ConventionalLoans/CLFAQSection";
 import CLSection from "@/components/ConventionalLoans/CLSection";
 import OtherProgramsCarousel from "@/components/FHALoan/OtherProgramsCarousel";
 import BlogSection from "@/components/Home/BlogSection";
-import FAQSection from "@/components/Home/FAQSection";
 import NeedHelpSection from "@/components/Home/NeedHelpSection";
 import React from "react";
 
@@ -13,7 +13,7 @@ const page = () => {
       <CLSection />
       <OtherProgramsCarousel />
       <NeedHelpSection />
-      <FAQSection />
+      <CLFAQSection />
       <BlogSection />
     </div>
   );

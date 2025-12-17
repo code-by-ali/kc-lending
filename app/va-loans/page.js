@@ -1,8 +1,8 @@
 import OtherProgramsCarousel from "@/components/FHALoan/OtherProgramsCarousel";
 import BlogSection from "@/components/Home/BlogSection";
-import FAQSection from "@/components/Home/FAQSection";
 import NeedHelpSection from "@/components/Home/NeedHelpSection";
 import VALoansBanner from "@/components/VALoans/VALoansBanner";
+import VALoansFAQSection from "@/components/VALoans/VALoansFAQSection";
 import VALoansSection from "@/components/VALoans/VALoansSection";
 import React from "react";
 
@@ -13,7 +13,7 @@ const page = () => {
       <VALoansSection />
       <OtherProgramsCarousel />
       <NeedHelpSection />
-      <FAQSection />
+      <VALoansFAQSection />
       <BlogSection />
     </div>
   );

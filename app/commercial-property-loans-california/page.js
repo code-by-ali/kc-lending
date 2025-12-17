@@ -1,8 +1,8 @@
 import CPLCBanner from "@/components/CommercialPropertyLoansCalifornia/CPLCBanner";
+import CPLCFAQSection from "@/components/CommercialPropertyLoansCalifornia/CPLCFAQSection";
 import CPLCSection from "@/components/CommercialPropertyLoansCalifornia/CPLCSection";
 import OtherProgramsCarousel from "@/components/FHALoan/OtherProgramsCarousel";
 import BlogSection from "@/components/Home/BlogSection";
-import FAQSection from "@/components/Home/FAQSection";
 import NeedHelpSection from "@/components/Home/NeedHelpSection";
 import React from "react";
 
@@ -13,7 +13,7 @@ const page = () => {
       <CPLCSection />
       <OtherProgramsCarousel />
       <NeedHelpSection />
-      <FAQSection />
+      <CPLCFAQSection />
       <BlogSection />
     </div>
   );
