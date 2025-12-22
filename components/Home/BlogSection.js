@@ -35,16 +35,15 @@ const BlogSection = () => {
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-12">
           <div>
             <p className="text-[#1751A8] font-medium text-lg md:text-xl mb-2">
-              From Our Blog
+              Latest Blogs{" "}
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#1A202C]">
-              Stay Informed on Home Financing
+              Want to stay up to date?{" "}
             </h2>
           </div>
           <p className="text-[#6C727F] text-lg md:text-xl lg:text-2xl mt-4 lg:mt-0 max-w-md">
-            Explore practical advice on rates, loan programs, and homebuying
-            strategies. We break down complex mortgage topics into simple,
-            actionable insights you can use.
+            We're committed to creating solutions that align with your unique
+            goals and needs.
           </p>
         </div>
 
