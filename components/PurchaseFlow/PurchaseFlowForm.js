@@ -736,7 +736,7 @@ export default function PurchaseFlowForm() {
                         handleSelection("fullName", e.target.value)
                       }
                       placeholder="John Carter"
-                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#184FA1] focus:outline-none"
+                      className="text-primary w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#184FA1] focus:outline-none"
                     />
                   </div>
 
@@ -750,7 +750,7 @@ export default function PurchaseFlowForm() {
                       value={formData.email}
                       onChange={(e) => handleSelection("email", e.target.value)}
                       placeholder="example@email.com"
-                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#184FA1] focus:outline-none"
+                      className="text-primary w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#184FA1] focus:outline-none"
                     />
                   </div>
 
@@ -767,7 +767,7 @@ export default function PurchaseFlowForm() {
                           handleSelection("phone", e.target.value)
                         }
                         placeholder="(123) 657-889"
-                        className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#184FA1] focus:outline-none"
+                        className="text-primary w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#184FA1] focus:outline-none"
                       />
                     </div>
                     <div>
@@ -781,7 +781,7 @@ export default function PurchaseFlowForm() {
                           handleSelection("subject", e.target.value)
                         }
                         placeholder="Buying house"
-                        className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#184FA1] focus:outline-none"
+                        className="text-primary w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#184FA1] focus:outline-none"
                       />
                     </div>
                   </div>
@@ -797,7 +797,7 @@ export default function PurchaseFlowForm() {
                       }
                       placeholder="Write here..."
                       rows={4}
-                      className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#184FA1] focus:outline-none resize-none"
+                      className="text-primary w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#184FA1] focus:outline-none resize-none"
                     />
                   </div>
 
