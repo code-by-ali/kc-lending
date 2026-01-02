@@ -16,6 +16,8 @@ import SocialFBIcon from "@/public/assets/footer-social-fb-icon.svg";
 import SocialTwitterIcon from "@/public/assets/footer-social-twitter-icon.svg";
 import SocialLinkedinIcon from "@/public/assets/footer-social-linkedin-icon.svg";
 import SocialInstaIcon from "@/public/assets/footer-social-insta-icon.svg";
+import FooterImg1 from "@/public/assets/footer-img-1.svg";
+import FooterImg2 from "@/public/assets/footer-img-2.svg";
 
 const Footer = () => {
   const exploreLinks = [
@@ -30,15 +32,13 @@ const Footer = () => {
   const latestNews = [
     {
       date: "December 31, 2020",
-      title: "For bar auto you will get 90% loan amount",
-      image:
-        "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=200&h=200&fit=crop",
+      title: "For car auto you will get 90% loan amount",
+      image: FooterImg1,
     },
     {
       date: "December 31, 2020",
       title: "How to get education loan for overseas",
-      image:
-        "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=200&h=200&fit=crop",
+      image: FooterImg2,
     },
   ];
 

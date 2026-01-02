@@ -3,15 +3,9 @@ import { MessageCircle } from "lucide-react";
 import CommonImage from "../common/CommonImage";
 import AboutServiceImg1 from "@/public/assets/home-about-service-img-1.svg";
 import AboutServiceImg2 from "@/public/assets/home-about-service-img-2.svg";
+import SupportListImg from "@/public/assets/support-list.svg";
 
 const AboutServiceSection = () => {
-  const insuranceCompanies = [
-    { name: "PROGRESSIVE", score: 99, logo: "PROGRESSIVE" },
-    { name: "GEICO", score: 80, logo: "GEICO" },
-    { name: "Nationwide", score: 95, logo: "Nationwide", hasIcon: true },
-    { name: "TRAVELERS", score: 85, logo: "TRAVELERS", hasSuperscript: true },
-  ];
-
   return (
     <section className="relative overflow-hidden">
       {/* White Background - 50% */}
@@ -55,6 +49,10 @@ const AboutServiceSection = () => {
 
             {/* Image */}
             <div className="relative mt-auto">
+              <CommonImage
+                src={SupportListImg.src || SupportListImg}
+                className="absolute right-0 top-[20%]"
+              />
               <CommonImage
                 src={AboutServiceImg1.src || AboutServiceImg1}
                 alt="Woman in car"
