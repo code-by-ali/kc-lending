@@ -5,8 +5,10 @@ import MortgageIcon1 from "@/public/assets/home-mortgage-calc-icon-1.svg";
 import MortgageIcon2 from "@/public/assets/home-mortgage-calc-icon-2.svg";
 import MortgageIcon3 from "@/public/assets/home-mortgage-calc-icon-3.svg";
 import CommonImage from "../common/CommonImage";
+import { useRouter } from "next/navigation";
 
 const MortgageCalculatorSection = () => {
+  const router = useRouter();
   const [purchasePrice, setPurchasePrice] = useState(500000);
   const [downPayment, setDownPayment] = useState(20);
   const [interestRate, setInterestRate] = useState(5);
@@ -315,7 +317,10 @@ const MortgageCalculatorSection = () => {
                   >
                     Reset Calculator
                   </button>
-                  <button className="flex-1 cursor-pointer border-2 border-[#1751A8] text-[#1751A8] font-semibold py-4 text-base md:text-lg rounded-sm hover:bg-blue-50 transition-colors">
+                  <button
+                    onClick={() => router.push("/contact")}
+                    className="flex-1 cursor-pointer border-2 border-[#1751A8] text-[#1751A8] font-semibold py-4 text-base md:text-lg rounded-sm hover:bg-blue-50 transition-colors"
+                  >
                     Get Consultation
                   </button>
                 </div>
